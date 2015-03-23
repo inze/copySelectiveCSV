@@ -56,8 +56,8 @@ def commasep(file):
                     print('Attribute ' + attr + ' in list.')
                 for attr in s_list:
                     i+=1
-                first_idx = 1;
-                last_idx = i;
+                first_idx = 0;
+                last_idx = i-1;
                 i=0
                 for attr in s_list:
 #                   if not trailing_delimiter=='':
